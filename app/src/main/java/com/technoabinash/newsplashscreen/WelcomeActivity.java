@@ -11,6 +11,7 @@ public class WelcomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_welcome);
+        getSupportActionBar().hide();
 
         //first set welcome activity from manifest file
         // create thread object set timer and finally forward to main activity
